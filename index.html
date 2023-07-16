@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Virtual Nexus">
+    <meta property="og:description" content="El mejor sitio para descargar tus juegos preferidos de PC y Android">
+    <meta property="og:image" content="https://github.com/patrielinger/Virtual-Nexus/blob/main/img/icono.jpeg?raw=true">
+    <meta property="og:url" content="https://virtualnexus.netlify.app/">
+    <title>Virtual Nexus</title>
+    <link rel="website icon" type="png" href="/img/icono.jpeg">
+    <link rel="stylesheet" href="/css/style1200px.css">
+    <link rel="stylesheet" href="/css/style900px.css">
+    <link rel="stylesheet" href="/css/style400px.css">
+    <link rel="stylesheet" href="/css/search.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="/js/juegos.js"></script>
+    <script src="/js/meta.js"></script>
+    <script type="text/javascript">
+        var cuty_token = 'ff53c4f42e4f0747dfb01243b';
+        var exclude_domains = ["127.0.0.1:5500","tiktok.com","discord.gg","instagram.com","virtualnexus.netlify.app","/"];
+    </script>
+    <script src="https://cdn.cuty.io/fps.js"></script>
+
+</head>
+<body>
+<nav>
+    <img src="/img/icono.jpeg" alt="">
+    <h1>Virtual Nexus</h1>
+</nav>
+
+<button class="abrir" onclick="abrir()">&#9776;</button>
+
+<div class="asidee">
+    <aside id="asideee">
+        <b>Categorias</b>
+        <!-- <input type="text" name="buscador" id="buscador" placeholder="Buscar..."> -->
+            <li><a href="/" class="categoria">inicio</a></li>
+            <li><a href="/emuladores/" class="categoria">Emuladores</a></li>
+            <li><a href="/roms/" class="categoria">Roms</a></li>
+            <li><a href="/pc/" class="categoria">PC</a></li>
+            <li><a href="/android/" class="categoria">Android</a></li>
+            <li><button class="categoria" onclick="mostrarCartel520()">Redes</button></li>
+        </aside>
+    <div id="miCartel111" class="cartel">
+        <h1>Selecciona el Idioma</h1>
+
+        <h3><a style="color: blueviolet;" href="/">Español</a></h3>
+        <h3><a style="color: blueviolet;" href="/en/">Ingles</a></h3>
+
+        <button onclick="ocultarCartel()" class="cerrar">Cerrar</button>
+
+    </div>
+        
+        <div id="miCartel520" class="cartel">
+            <h3>Visita Nuestras redes para conocernos mejor</h3>
+            <a href="https://www.tiktok.com/@virtual.._nexus">
+                <button>
+                    <img src="/img/tik tok.png" alt="">
+                    <h2>Tik Tok</h2>
+                </button>
+            </a>
+    
+            <a href="https://discord.gg/3kxp2BRRj3">
+                <button>
+                    <img src="/img/ds.png" alt="">
+                    <h2>Discord</h2>
+                </button>
+            </a>
+                <button onclick="ocultarCartel()" class="cerrar">Cerrar</button>
+            </div>
+        <!-- <input type="text" name="buscador" id="buscador" placeholder="Buscar..."> -->
+    <div class="notis">
+        <h1>Novedades de la Web</h1>
+
+
+
+        <button class="articulo">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/79cefe26-0720-44f7-be20-b0eb32a7cf39/d2iugfo-8b743862-9763-413f-abda-7d1b195789cc.png/v1/fill/w_512,h_512/roms_folder_icon_512x512_by_stumpy666davies_d2iugfo-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTEyIiwicGF0aCI6IlwvZlwvNzljZWZlMjYtMDcyMC00NGY3LWJlMjAtYjBlYjMyYTdjZjM5XC9kMml1Z2ZvLThiNzQzODYyLTk3NjMtNDEzZi1hYmRhLTdkMWIxOTU3ODljYy5wbmciLCJ3aWR0aCI6Ijw9NTEyIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.vbzE7x40btVJXfX1m2Ebwq2ndEzRg12Z7CoJYDr5enU" alt="">
+            <b>Se inauguró la categoria de <a href="/roms/">Roms</a> (+2500 Juegos por el momento)</b>
+            <p>15/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="img/icono.jpeg" alt="">
+            <b>Se han agregado juegos a las categorias de <a href="/android/">Android</a> y <a href="/pc/">PC</a>(52 Juegos)</b>
+            <p>15/07/2023</p>
+        </button>
+
+           <button class="articulo">
+            <img src="img/ds.png" alt="">
+            <h3>Te invitamos a nuestra comunidad de Discord! <br><a href="https://discord.gg/3kxp2BRRj3">Click Para unirse</a></h3>
+        </button>
+
+   <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos a todas la categoria de <a href="/pc">Gama Baja</a>(32 Juegos)</b>
+            <p>11/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos a todas las categorias de <a href="/pc">PC</a></b>
+            <p>9/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de <a href="/pc/gamabaja/">Gama Baja</a></b>
+            <p>4/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de <a href="/android/">Android</a>
+                <br>y se han arreglado todos los links caidos de los que estamos enterados</b>
+            <p>3/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de <a href="/pc/">PC</a> y <a href="/android/">Android</a> (35 Juegos)</b>
+            <p>1/07/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de <a href="/pc/">PC</a> (58 Juegos)
+            <br> -Puede que algunos de los juegos agregados no esten filtrados en sus correspondientes gamas-</b>
+            <p>29/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de <a href="/android/">Android</a> (6 Juegos)</b>
+            <p>27/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de 
+             <a href="/android/">Android</a> (58 Juegos)</b>
+            <p>25/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la categoria de<a href="/pc/gamabaja/">PC Gama Baja</a> (29 Juegos)</b>
+            <p>23/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en las categorias de <a href="/android/">Android</a> y en <a href="/pc/gamabaja/">PC Gama Baja</a> (74 Juegos)</b>
+            <p>22/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en <a href="#">Todas las Categorias</a>(70 Juegos)</b>
+
+            <p>22/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/pc/gamamedia/">Gama Media</a> y <a href="/pc/gamabaja/">Gama Baja</a>(34 Juegos)</b>
+
+            <p>20/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/android/">Android</a>(19 Juegos)</b>
+
+            <p>20/06/2023</p>
+        </button>
+
+                <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se hicieron modificaciones en el apartado de <a href="/pc">PC</a>,Ahora puedes filtrar los juegos que quieras</b>
+
+            <p>20/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/pc/gamaalta/">Gama Alta</a> y <a href="pc/gamamedia">Gama Media</a>(23 Juegos en total)</b>
+
+            <p>20/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/android/">Android</a>(21 Juegos)</b>
+
+            <p>19/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/pc/gamabaja/">Gama Baja</a>, <a href="/pc/gamaalta/">Gama Alta</a>
+            ,<a href="/pc/gamamedia/">Gama Media</a> y en <a href="/android/">Android</a></b>
+
+            <p>18/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/pc/gamabaja/">PC Gama Baja</a></b>
+
+            <p>17/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/pc/gamamedia/">PC Gama Media</a></b>
+
+            <p>16/06/2023</p>
+        </button>
+
+        <button class="articulo">
+            <img src="/img/icono.jpeg" alt="">
+            <b>Se agregaron nuevos Juegos en la seccion de <a href="/android/">Android</a></b>
+
+            <p>16/06/2023</p>
+        </button>
+
+
+
+        
+    </div>
+
+</div>
+</body>
+</html>
